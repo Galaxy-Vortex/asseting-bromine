@@ -1,0 +1,47 @@
+{
+  "id": "/",
+  "scope": "/",
+  "display": "standalone",
+  "start_url": "/",
+  "short_name": "2048",
+  "name": "2048",
+  "description": "Merge the tiles to get 2048!",
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "display_override": ["window-controls-overlay"],
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Standard",
+      "url": "/",
+      "description": "2048, with Powerups!"
+    },
+    {
+      "name": "Classic",
+      "url": "/classic",
+      "description": "The original 2048. No undo."
+    }
+  ],
+
+  "theme_color": "#faf8f0",
+  "background_color": "#f1c221",
+  "categories": ["games", "puzzle"]
+}
